@@ -5,7 +5,29 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://localhost:4000/</link>
     <description>developer blog</description>
-    <pubDate>Wed, 29 Aug 2018 19:45:30 +0900</pubDate>
+    <pubDate>Thu, 28 Jan 2021 18:36:13 +0900</pubDate>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <link>/type.kimchi.io/jekyll/update/2021/01/28/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">/type.kimchi.io/jekyll/update/2021/01/28/welcome-to-jekyll.html</guid>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 28 Jan 2021 18:22:55 +0900</pubDate>
+      </item>
     
       <item>
         <title>(ADsP 2과목) 4-2. 데이터 분석 기획의 이해 - 분석 방법론</title>
@@ -1261,87 +1283,6 @@ R studio를 실행시켜보면 위의 이미지와 같은 4분할 창이 먼저 
         <link>/data%20science/statistics/2018/08/14/statistics-3.html</link>
         <guid isPermaLink="true">/data%20science/statistics/2018/08/14/statistics-3.html</guid>
         <description>&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&amp;lt;p&amp;gt; 이번에는 각 자료들의 종류에 따라서 표현할 수 있는 그래프를 정리하였다. &amp;lt;/p&amp;gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;subtitle&gt;references&lt;/subtitle&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;http://www.kmooc.kr/courses/course-v1:PNUk+RS_C01+2017_KM_009/info&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 14 Aug 2018 00:00:00 +0900</pubDate>
-      </item>
-    
-      <item>
-        <title>Basic Statistics - 모집단(Population)과 표본(Sample)</title>
-        <link>/data%20science/statistics/2018/08/14/statistics-2.html</link>
-        <guid isPermaLink="true">/data%20science/statistics/2018/08/14/statistics-2.html</guid>
-        <description>&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&amp;lt;p&amp;gt; 통계학은 용어가 조금 어렵고 많은 것 같다. 용어 위주로 정리하였으며 통계학의 아주 기초적인 모집단과 표본에 대하여 정리 하였다. &amp;lt;/p&amp;gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;subtitle&gt;1. 모집단(Population)과 표본(Sample) &lt;/subtitle&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;center&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/20412850/44082602-a9c4c2ee-9fec-11e8-97ba-7e4068de84a6.png&quot; width=&quot;40%&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;모집단(Population) : 분석하고자하는 전체 대상&lt;/li&gt;
-  &lt;li&gt;표본(sample) : 모집단에서 표본 추출(sampling)한 집단&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;표본을 사용하는 이유 : 모집단의 크기가 크면 많은 시간과 비용이 들기 때문이다.&lt;/li&gt;
-  &lt;li&gt;표본 추출의 이점 : 일부 추출한 표본을 분석하여 모집단의 특성을 추론할 수 있다.&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;subtitle&gt;2. 표본 추출(sampling) 방법 &lt;/subtitle&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;
-크게 확률적 추출(probability sampling)과 비확률적 추출(nonprobability sampling)으로 나뉜다.&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;1) 확률적 추출(probability sampling)&lt;br /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;단순 무작위 추출(simple random sampling) : 표본으로 선택될 확률은 모두 n/N으로 동일하다.&lt;/li&gt;
-  &lt;li&gt;계통 추출(systematic sampling) : 일정 간격으로 표본을 선택한다.&lt;/li&gt;
-  &lt;li&gt;층화 추출(stratified sampling) : 모집단을 성격에 따라 몇개의 집단 또는 층(strata)으로 나누고 집단 내에서 원하는 크기의 표본을 무작위로 추출한다.&lt;/li&gt;
-  &lt;li&gt;군집 추출(cluster sampling) : 모집단을 특성에 따라 여러개의 집단(cluster)으로 나누고 몇개의 집단을 선택한 후 선택된 집단 내에서 필요한 만큼의 표본을 무작위로 추출한다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;
-2) 비확률적 추출(nonprobability sampling)&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;판단 추출(judgement sampling) : 연구자가 자신의 판단에 따라 표본을 선택한다.&lt;/li&gt;
-  &lt;li&gt;할당 추출(quota sampling) : 모집단을 여러 집단으로 나눈 후 연구자가 자신에 판단에 따라서 집단에서 필요한 표본의 개수를 선택해 추출한다.&lt;/li&gt;
-  &lt;li&gt;편의 추출(convenience sampling) : 연구자가 쉽게 접근할 수 잇는 표본을 선택한다.
-&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-  &lt;subtitle&gt;3. 자료의 종류&lt;/subtitle&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Data : Datum(자료, 정보)의 복수형, 통계학은 자료(재료)를 이용해서 정보(요리)를 만들어 내는 것이다.&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/20412850/44083785-eb341902-9fef-11e8-92d4-bc275725bb14.png&quot; width=&quot;40%&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;자료는 크게 양적 자료와 질적 자료로 나눌 수 있으며 양적자료는 연속형 자료, 이산형 자료로로 나눌 수 있꼬 질적 자료에는 명목형 자료, 순서형 자료로 나눌 수 있다.&lt;br /&gt;&lt;/p&gt;
-
-&lt;center&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/20412850/44084534-ecbd40c6-9ff1-11e8-9139-50e4c196f217.png&quot; width=&quot;80%&quot; /&gt;&lt;/center&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
