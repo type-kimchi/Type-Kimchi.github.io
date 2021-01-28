@@ -2,10 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>http://localhost:4000/type.kimchi.io/jekyll/update/2021/01/28/welcome-to-jekyll.html</loc>
-    </url>
-    
-    <url>
         <loc>http://localhost:4000/data%20science/adsp/2018/08/21/ADsP-9.html</loc>
     </url>
     
@@ -202,14 +198,6 @@
     
     
     <url>
-        <loc>http://localhost:4000/type.kimchi.io/404.html</loc>
-    </url>
-    
-    
-    
-    
-    
-    <url>
         <loc>http://localhost:4000/404.html</loc>
     </url>
     
@@ -337,26 +325,10 @@
     
     
     
-    <url>
-        <loc>http://localhost:4000/about/</loc>
-    </url>
-    
-    
-    
-    
-    
     
     
     <url>
         <loc>http://localhost:4000/</loc>
-    </url>
-    
-    
-    
-    
-    
-    <url>
-        <loc>http://localhost:4000/type.kimchi.io/</loc>
     </url>
     
     
@@ -521,30 +493,6 @@
     
     <url>
         <loc>http://localhost:4000/category/Python%252FTensorflow/</loc>
-    </url>
-    
-    
-    
-    
-    
-    <url>
-        <loc>http://localhost:4000/category/jekyll/</loc>
-    </url>
-    
-    
-    
-    
-    
-    <url>
-        <loc>http://localhost:4000/category/type.kimchi.io/</loc>
-    </url>
-    
-    
-    
-    
-    
-    <url>
-        <loc>http://localhost:4000/category/update/</loc>
     </url>
     
     
