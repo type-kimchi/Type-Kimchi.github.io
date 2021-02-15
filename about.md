@@ -66,39 +66,35 @@ feature-img: "assets/img/sample_feature_img_2.png"
 
 <br><br><br><br><br><br><br>
 
-<h3>4. Project</h3>
+<h3><p>4. Project</p></h3>
+
 <div id="jb-sidebar">
-	<p>2017.01 ~ 2017.12</p>
-	<br>
-    <p>2017.03 ~ 2017.06</p>
+	  <p>2020.12 ~ 2021.02</p>
+	  <br>
+    <p>2020.05 ~ 2020.09</p>
     <br>
-    <p>2016.09 ~ 2016.12</p>
+    <p>2020.05 ~ 2020.08</p>
     <br><br><br><br><br><br>
-    <p>2016.03 ~ 2016.06</p>
+    <p>2018.07 ~ 2020.05</p>
     <br><br><br><br><br><br>
-    <p>2015.09 ~ 2015.12</p>
+    <p>2018.01 ~ Current</p>
 </div>
 
 <div id="jb-content">
-    <p>산학연 중기청 과제 참여<br>
-	* 상담 내담자의 텍스트 감정 분석 및 분류 연구</p>
+    <p>Siemens 사내 모바일 Migration<br>
+	* Siemens 내부 그룹계열 포함 (SLS / SHL / SEL / SMO)</p>
 
-    <p>소프트웨어특강(수업) 프로젝트<br>
-    * 아파트 시세 예측 머신러닝 모델 구현</p>
+    <p>BI report 구현<br>
+    * Power BI & Excel을 통한 3rd party ticket analysis</p>
 
-    <p>컴퓨터비전시스템(수업) 프로젝트<br>
-    * 번호판 인식 프로그램<br>
-    * Adaboost 논문 구현<br><br>
+    <p>Siemens O365 Masterclass<br>
+    * Teams / Powerautomate / Whiteboard / PowerBI </p>
+    <p>LVMH : HJ Jewerly part<br>
 
-    지능형시스템(수업) 프로젝트<br>
-    * 영화 추천 시스템 </p>
-    <p>인공지능(수업) 프로젝트<br>
+    * 불가리코리아 IT consultant<br>
+    * Chaumet & Fred korea office support<br>
+    * AD / O365 / Meraki manage<br></p>
 
-    * 소비자 심리지수 예측 시스템<br>
-    * 화재 감지 경보 시스템<br>
-    * 외국인을 위한 지능형 한국어 교육 시스템(한국어 문장을 발음 문장으로 변환, 받아쓰기 프로그램)<br>
-    * IMU 모듈을 이용한 손목 회전 추적 시스템</p>
-
-    <p>JAVA프로그래밍(수업) 프로젝트<br>
-    * 자바 어플리케이션 다마고치 게임 제작</p>
+    <p>Mans buy 서비스 런칭<br>
+    * https://mans-buy.com</p>
 </div>
