@@ -55,8 +55,9 @@ feature-img: "assets/img/sample_feature_img_2.png"
   <p>2018.08 ~ 2020.05</p>
   <p>2018.01 ~ 현재</p>
   <p>2012.03</p>
-  <br>
 </div>
+
+<br><br><br><br><br><br>
 
 <div id="jb-content">
     <p>지멘스 입사</p>
