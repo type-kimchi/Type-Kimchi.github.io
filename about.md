@@ -57,8 +57,6 @@ feature-img: "assets/img/sample_feature_img_2.png"
   <p>2012.03</p>
 </div>
 
-
-
 <div id="jb-content">
     <p>지멘스 입사</p>
     <p>불가리코리아 입사</p>
@@ -66,7 +64,6 @@ feature-img: "assets/img/sample_feature_img_2.png"
     <p>숭실대학교 입학</p>
 </div>
 
-<br><br><br><br><br><br>
 
 <h3>4. Project</h3>
 
@@ -91,6 +88,7 @@ feature-img: "assets/img/sample_feature_img_2.png"
 
     <p>Siemens O365 Masterclass<br>
     * Teams / Powerautomate / Whiteboard / PowerBI </p>
+
     <p>LVMH : HJ Jewerly part<br>
 
     * 불가리코리아 IT consultant<br>
