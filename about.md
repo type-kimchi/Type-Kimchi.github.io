@@ -57,17 +57,16 @@ feature-img: "assets/img/sample_feature_img_2.png"
   <p>2012.03</p>
 </div>
 
-<br><br><br><br><br><br>
+
 
 <div id="jb-content">
     <p>지멘스 입사</p>
     <p>불가리코리아 입사</p>
     <p>맨즈바이 설립 : Https://Mans-buy.com</p>
     <p>숭실대학교 입학</p>
-    <br>
 </div>
 
-
+<br><br><br><br><br><br>
 
 <h3>4. Project</h3>
 
