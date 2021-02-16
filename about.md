@@ -63,9 +63,10 @@ feature-img: "assets/img/sample_feature_img_2.png"
     <p>불가리코리아 입사</p>
     <p>맨즈바이 설립 : Https://Mans-buy.com</p>
     <p>숭실대학교 입학</p>
+    <br>
 </div>
 
-<br>
+
 
 <h3>4. Project</h3>
 
