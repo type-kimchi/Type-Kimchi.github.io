@@ -64,9 +64,9 @@ feature-img: "assets/img/sample_feature_img_2.png"
     <p>숭실대학교 입학</p>
 </div>
 
-<br><br><br><br><br><br><br>
+<br>
 
-<h3><p>4. Project</p></h3>
+<h3>4. Project</h3>
 
 <div id="jb-sidebar">
 	  <p>2020.12 ~ 2021.02</p>
@@ -74,9 +74,9 @@ feature-img: "assets/img/sample_feature_img_2.png"
     <p>2020.05 ~ 2020.09</p>
     <br>
     <p>2020.05 ~ 2020.08</p>
-    <br><br><br><br><br><br>
+    <br><br>
     <p>2018.07 ~ 2020.05</p>
-    <br><br><br><br><br><br>
+    <br><br><br><br>
     <p>2018.01 ~ Current</p>
 </div>
 
