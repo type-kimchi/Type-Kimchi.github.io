@@ -64,7 +64,7 @@ feature-img: "assets/img/sample_feature_img_2.png"
   <p>숭실대학교 입학</p>
 </div>
 
-<br style="clear:both" />
+<br style="clear:both;" />
 <h3>4. Project</h3>
 
 <div id="jb-sidebar">
