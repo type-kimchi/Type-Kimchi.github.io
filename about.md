@@ -65,7 +65,7 @@ feature-img: "assets/img/sample_feature_img_2.png"
 </div>
 
 
-<h3>4. Project</h3>
+  <h3>4. Project</h3>
 
 <div id="jb-sidebar">
 	  <p>2020.12 ~ 2021.02</p>
