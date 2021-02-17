@@ -88,13 +88,13 @@ feature-img: "assets/img/sample_feature_img_2.png"
 
   <p>Siemens O365 Masterclass<br>
     * Teams / Powerautomate / Whiteboard / PowerBI </p>
-
+    <br>
   <p>LVMH : HJ Jewerly part<br>
 
     * 불가리코리아 IT consultant<br>
     * Chaumet & Fred korea office support<br>
     * AD / O365 / Meraki manage<br></p>
-
+    <br><br><br>
   <p>Mans buy 서비스 런칭<br>
     * https://mans-buy.com</p>
 </div>
