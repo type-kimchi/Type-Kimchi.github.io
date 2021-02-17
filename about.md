@@ -58,43 +58,43 @@ feature-img: "assets/img/sample_feature_img_2.png"
 </div>
 
 <div id="jb-content">
-    <p>지멘스 입사</p>
-    <p>불가리코리아 입사</p>
-    <p>맨즈바이 설립 : Https://Mans-buy.com</p>
-    <p>숭실대학교 입학</p>
+  <p>지멘스 입사</p>
+  <p>불가리코리아 입사</p>
+  <p>맨즈바이 설립 : Https://Mans-buy.com</p>
+  <p>숭실대학교 입학</p>
 </div>
 
 
-  <h3>4. Project</h3>
+<h3>4. Project</h3>
 
 <div id="jb-sidebar">
-	  <p>2020.12 ~ 2021.02</p>
-	  <br>
-    <p>2020.05 ~ 2020.09</p>
-    <br>
-    <p>2020.05 ~ 2020.08</p>
-    <br><br>
-    <p>2018.07 ~ 2020.05</p>
-    <br><br><br><br>
-    <p>2018.01 ~ Current</p>
+	<p>2020.12 ~ 2021.02</p>
+	<br>
+  <p>2020.05 ~ 2020.09</p>
+  <br>
+  <p>2020.05 ~ 2020.08</p>
+  <br><br>
+  <p>2018.07 ~ 2020.05</p>
+  <br><br><br><br>
+  <p>2018.01 ~ Current</p>
 </div>
 
 <div id="jb-content">
-    <p>Siemens 사내 모바일 Migration<br>
-	* Siemens 내부 그룹계열 포함 (SLS / SHL / SEL / SMO)</p>
+  <p>Siemens 사내 모바일 Migration<br>
+    * Siemens 내부 그룹계열 포함 (SLS / SHL / SEL / SMO)</p>
 
-    <p>BI report 구현<br>
+  <p>BI report 구현<br>
     * Power BI & Excel을 통한 3rd party ticket analysis</p>
 
-    <p>Siemens O365 Masterclass<br>
+  <p>Siemens O365 Masterclass<br>
     * Teams / Powerautomate / Whiteboard / PowerBI </p>
 
-    <p>LVMH : HJ Jewerly part<br>
+  <p>LVMH : HJ Jewerly part<br>
 
     * 불가리코리아 IT consultant<br>
     * Chaumet & Fred korea office support<br>
     * AD / O365 / Meraki manage<br></p>
 
-    <p>Mans buy 서비스 런칭<br>
+  <p>Mans buy 서비스 런칭<br>
     * https://mans-buy.com</p>
 </div>
