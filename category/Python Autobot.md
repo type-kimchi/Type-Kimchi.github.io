@@ -1,7 +1,7 @@
 ---
 layout: category
-title: Python/Python을 통한 비트코인 자동매매
-permalink: '/Python/Python을 통한 비트코인 자동매매'
+title: Python/Python Autobot
+permalink: '/Python/Autobot'
 ---
 
 Another sample category page.
