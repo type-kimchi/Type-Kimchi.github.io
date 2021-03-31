@@ -5,3 +5,5 @@ comments: true
 categories : [Python/BitcoinAutotrading]
 tags: [Python, Bitcoin]
 ---
+
+비트코인 자동매매 포스팅
