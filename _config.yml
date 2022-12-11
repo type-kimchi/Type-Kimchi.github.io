@@ -22,7 +22,7 @@ theme_settings:
 
   # Icons
   rss: false
-  email_address: swgood4@gmail.com # Full email address, e.g. "sam@example.com"
+  email_address: "swgood4@gmail.com" # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
