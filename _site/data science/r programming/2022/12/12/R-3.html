@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+	<meta charset="utf-8">
+	<title>R programming - Anaconda에 R 설치후 Jupyter notebook 사용하기(Windows10, MAC OS) | Sangwon's Blog</title>
+	<meta name="description"
+		content="&lt;p&gt;Anaconda에 R을 설치하면 Jupyter notebook에서 R 프로그래밍을 사용할 수 있다. 나는 R studio보다 Jupyter notebook이 조금 더 편해서 R 프로그래밍 환경을 Jupyter notebook으로 변경하였다.&lt;/p&gt;">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+
+	<!-- Canonical -->
+	<link rel="canonical" href="/data%20science/r%20programming/2022/12/12/R-3.html">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="Sangwon's Blog"
+		href="/feed.xml" />
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+	<!-- Google Fonts -->
+	
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet"
+		type="text/css">
+	
+
+	<!-- KaTeX -->
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css"
+		integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+
+	<script src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js"
+		integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ"
+		crossorigin="anonymous"></script>
+	
+
+	<!-- Google Analytics -->
+	
+	<script>
+		(function (i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date(); a = s.createElement(o),
+			m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-168092390-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	
+</head>
+  <body>
+    <header class="site-header">
+	<div class="branding">
+		
+		<a href="/">
+			<img class="avatar" src="/assets/img/avatar.png" alt=""/>
+		</a>
+		
+		<h1 class="site-title">
+			<a href="/">Sangwon's Blog</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+		<ul>
+			
+			
+			
+			
+			
+			<li>
+				<a class="page-link" href="/about/">
+					About
+				</a>
+			</li>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<!-- Social icons from Font Awesome, if enabled  -->
+			
+
+
+<li>
+	<a href="mailto:swgood4@gmail.com" title="Email">
+		<i class="fas fa-fw fa-envelope"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://github.com/type-kimchi" title="Follow on GitHub">
+		<i class="fab fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+<li>
+	<a href="https://www.linkedin.com/in/sangwon-choi-542759176/" title="Follow on LinkedIn">
+		<i class="fab fa-fw fa-linkedin"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Search bar -->
+            
+		</ul>
+	</nav>
+
+</header>
+
+    <div class="content">
+      <article >
+  <header style="background-image: url('/')">
+    <h1 class="title">R programming - Anaconda에 R 설치후 Jupyter notebook 사용하기(Windows10, MAC OS)</h1>
+    
+    <p class="meta">
+      December 12, 2022
+      
+    </p>
+  </header>
+  <section class="post-content"><p><br /><br />&lt;p&gt;Anaconda에 R을 설치하면 Jupyter notebook에서 R 프로그래밍을 사용할 수 있다. 나는 R studio보다 Jupyter notebook이 조금 더 편해서 R 프로그래밍 환경을 Jupyter notebook으로 변경하였다.&lt;/p&gt;<br /><br /></p>
+
+<blockquote>
+  <subtitle> 1. Anaconda에서 R 설치 </subtitle>
+</blockquote>
+
+<p>conda prompt에서 설치할 환경에 r을 설치한다. 나는 cuda라는 이름을 가진 아나콘다 환경에 R을 설치하려고 하므로 cuda로 conda 환경을 전환하고 설치하였다. <br />
+<br /><br /></p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="c"># conda prompt 실행</span>
+
+<span class="nv">$ </span>conda info <span class="nt">--envs</span>                 <span class="c"># 현재 존재하는 아나콘다 환경 확인</span>
+<span class="nv">$ </span>activate cuda                     <span class="c"># cuda라는 이름을 가진 아나콘다 환경 활성(Windows)</span>
+<span class="nv">$ </span>conda <span class="nb">install</span> <span class="nt">-c</span> r r-essentials   <span class="c"># R 패키지 설치</span></code></pre></figure>
+
+<p><br /><br /></p>
+
+<p>맥을 이용해 설치한다면 아래와 같이 설치한다.<br /></p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="c"># terminal 실행</span>
+
+<span class="nv">$ </span>conda info <span class="nt">--envs</span>                 <span class="c"># 현재 존재하는 아나콘다 환경 확인</span>
+<span class="nv">$ </span><span class="nb">source </span>activate cuda                     <span class="c"># cuda라는 이름을 가진 아나콘다 환경 활성(MAC OS)</span>
+<span class="nv">$ </span>conda <span class="nb">install</span> <span class="nt">-c</span> r r-essentials   <span class="c"># R 패키지 설치</span></code></pre></figure>
+
+<p><br /><br /></p>
+
+<p>r-essentials를 설치하면 r에서 기본적으로 사용하는 패키지들이 모두 설치 된다.<br /><br /></p>
+
+<blockquote>
+  <subtitle>2. jupyter notebook 켜서 확인</subtitle>
+</blockquote>
+
+<p>Jupyter notebook 를 켜서 확인한다.<br /></p>
+<center><img src="https://user-images.githubusercontent.com/20412850/44136663-8866b9c4-a0a8-11e8-8283-2a6b2b538efa.png" width="40%" /></center>
+<p><br /></p>
+
+<p>R 환경이 추가된 것을 볼 수 있다!</p>
+
+<p><br /><br /><br /></p>
+
+<blockquote>
+  <subtitle>references</subtitle>
+</blockquote>
+
+<ul>
+  <li>https://datascienceschool.net/view-notebook/867d2d5bbafa491a807ffa7c0eb60f81/</li>
+  <li>https://anaconda.org/r/r-essentials</li>
+</ul>
+
+<p><br /><br /><br /><br /><br /></p>
+</section>
+  
+<footer>
+  <div class="tags">
+    
+    <a class="tag" href="/tags#R+programming">#R programming</a>
+    
+  </div>
+</footer>
+
+
+</article>
+
+<!-- Disqus -->
+
+<div class="comments">
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+	var disqus_shortname = 'disqus_i8TVV3ScXa';
+	(function() {
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<noscript>Please enable JavaScript to view comments.</noscript>
+
+</div>
+
+
+<!-- Post navigation -->
+
+
+    </div>
+    
+<script src="/assets/js/katex_init.js"></script>
+
+
+
+<footer class="site-footer">
+	<p class="text">Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
+</p>
+</footer>
+
+
+  </body>
+</html>

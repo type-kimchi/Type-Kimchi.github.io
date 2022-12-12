@@ -64,15 +64,11 @@ theme_settings:
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
-  google_fonts: "Nanum+Gothic:400,700"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
 
   # Post navigation
   post_navigation: false
 
-encoding: 'utf-8'
-# Configure the plugin here
-category_path: "category" # <- default value
-category_layout: "category.html" # <- default value
 # PAGINATION
 paginate: 5
 paginate_path: "blog/page:num"
@@ -83,14 +79,7 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-plugins:
-  - jekyll-paginate
-  - jekyll-category-pages
-gem:
-    - jekyll-sitemap
-    - jekyll-feed
-    - wdm
-theme: jekyll-theme-type
+plugins: [jekyll-paginate]
 exclude:
   - Gemfile
   - Gemfile.lock

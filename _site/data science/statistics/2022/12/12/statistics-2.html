@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+	<meta charset="utf-8">
+	<title>Basic Statistics - 모집단(Population)과 표본(Sample) | Sangwon's Blog</title>
+	<meta name="description"
+		content="&lt;p&gt; 통계학은 용어가 조금 어렵고 많은 것 같다. 용어 위주로 정리하였으며 통계학의 아주 기초적인 모집단과 표본에 대하여 정리 하였다. &lt;/p&gt;">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+
+	<!-- Canonical -->
+	<link rel="canonical" href="/data%20science/statistics/2022/12/12/statistics-2.html">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="Sangwon's Blog"
+		href="/feed.xml" />
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+	<!-- Google Fonts -->
+	
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet"
+		type="text/css">
+	
+
+	<!-- KaTeX -->
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css"
+		integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+
+	<script src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js"
+		integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ"
+		crossorigin="anonymous"></script>
+	
+
+	<!-- Google Analytics -->
+	
+	<script>
+		(function (i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date(); a = s.createElement(o),
+			m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-168092390-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	
+</head>
+  <body>
+    <header class="site-header">
+	<div class="branding">
+		
+		<a href="/">
+			<img class="avatar" src="/assets/img/avatar.png" alt=""/>
+		</a>
+		
+		<h1 class="site-title">
+			<a href="/">Sangwon's Blog</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+		<ul>
+			
+			
+			
+			
+			
+			<li>
+				<a class="page-link" href="/about/">
+					About
+				</a>
+			</li>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<!-- Social icons from Font Awesome, if enabled  -->
+			
+
+
+<li>
+	<a href="mailto:swgood4@gmail.com" title="Email">
+		<i class="fas fa-fw fa-envelope"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://github.com/type-kimchi" title="Follow on GitHub">
+		<i class="fab fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+<li>
+	<a href="https://www.linkedin.com/in/sangwon-choi-542759176/" title="Follow on LinkedIn">
+		<i class="fab fa-fw fa-linkedin"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Search bar -->
+            
+		</ul>
+	</nav>
+
+</header>
+
+    <div class="content">
+      <article >
+  <header style="background-image: url('/')">
+    <h1 class="title">Basic Statistics - 모집단(Population)과 표본(Sample)</h1>
+    
+    <p class="meta">
+      December 12, 2022
+      
+    </p>
+  </header>
+  <section class="post-content"><p><br /><br />&lt;p&gt; 통계학은 용어가 조금 어렵고 많은 것 같다. 용어 위주로 정리하였으며 통계학의 아주 기초적인 모집단과 표본에 대하여 정리 하였다. &lt;/p&gt;<br /><br /></p>
+
+<blockquote>
+  <subtitle>1. 모집단(Population)과 표본(Sample) </subtitle>
+</blockquote>
+
+<p><br /></p>
+<center><img src="https://user-images.githubusercontent.com/20412850/44082602-a9c4c2ee-9fec-11e8-97ba-7e4068de84a6.png" width="40%" /></center>
+<p><br /></p>
+<ul>
+  <li>모집단(Population) : 분석하고자하는 전체 대상</li>
+  <li>표본(sample) : 모집단에서 표본 추출(sampling)한 집단</li>
+</ul>
+
+<p><br /></p>
+<ul>
+  <li>표본을 사용하는 이유 : 모집단의 크기가 크면 많은 시간과 비용이 들기 때문이다.</li>
+  <li>표본 추출의 이점 : 일부 추출한 표본을 분석하여 모집단의 특성을 추론할 수 있다.<br /><br /></li>
+</ul>
+
+<blockquote>
+  <subtitle>2. 표본 추출(sampling) 방법 </subtitle>
+</blockquote>
+
+<p><br />
+크게 확률적 추출(probability sampling)과 비확률적 추출(nonprobability sampling)으로 나뉜다.<br /></p>
+
+<p>1) 확률적 추출(probability sampling)<br /></p>
+
+<ul>
+  <li>단순 무작위 추출(simple random sampling) : 표본으로 선택될 확률은 모두 n/N으로 동일하다.</li>
+  <li>계통 추출(systematic sampling) : 일정 간격으로 표본을 선택한다.</li>
+  <li>층화 추출(stratified sampling) : 모집단을 성격에 따라 몇개의 집단 또는 층(strata)으로 나누고 집단 내에서 원하는 크기의 표본을 무작위로 추출한다.</li>
+  <li>군집 추출(cluster sampling) : 모집단을 특성에 따라 여러개의 집단(cluster)으로 나누고 몇개의 집단을 선택한 후 선택된 집단 내에서 필요한 만큼의 표본을 무작위로 추출한다.</li>
+</ul>
+
+<p><br />
+2) 비확률적 추출(nonprobability sampling)</p>
+<ul>
+  <li>판단 추출(judgement sampling) : 연구자가 자신의 판단에 따라 표본을 선택한다.</li>
+  <li>할당 추출(quota sampling) : 모집단을 여러 집단으로 나눈 후 연구자가 자신에 판단에 따라서 집단에서 필요한 표본의 개수를 선택해 추출한다.</li>
+  <li>편의 추출(convenience sampling) : 연구자가 쉽게 접근할 수 잇는 표본을 선택한다.
+<br /><br /></li>
+</ul>
+
+<blockquote>
+  <subtitle>3. 자료의 종류</subtitle>
+</blockquote>
+
+<p><br /></p>
+<ul>
+  <li>Data : Datum(자료, 정보)의 복수형, 통계학은 자료(재료)를 이용해서 정보(요리)를 만들어 내는 것이다.<br /></li>
+</ul>
+
+<center><img src="https://user-images.githubusercontent.com/20412850/44083785-eb341902-9fef-11e8-92d4-bc275725bb14.png" width="40%" /></center>
+<p><br /></p>
+
+<p>자료는 크게 양적 자료와 질적 자료로 나눌 수 있으며 양적자료는 연속형 자료, 이산형 자료로로 나눌 수 있꼬 질적 자료에는 명목형 자료, 순서형 자료로 나눌 수 있다.<br /></p>
+
+<center><img src="https://user-images.githubusercontent.com/20412850/44084534-ecbd40c6-9ff1-11e8-9139-50e4c196f217.png" width="80%" /></center>
+<p><br /></p>
+
+<p><br /><br /><br /></p>
+
+<blockquote>
+  <subtitle>references</subtitle>
+</blockquote>
+
+<ul>
+  <li>http://www.kmooc.kr/courses/course-v1:PNUk+RS_C01+2017_KM_009/info</li>
+</ul>
+
+<p><br /><br /><br /><br /><br /></p>
+</section>
+  
+<footer>
+  <div class="tags">
+    
+    <a class="tag" href="/tags#Statistics">#Statistics</a>
+    
+    <a class="tag" href="/tags#ADsP">#ADsP</a>
+    
+  </div>
+</footer>
+
+
+</article>
+
+<!-- Disqus -->
+
+<div class="comments">
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+	var disqus_shortname = 'disqus_i8TVV3ScXa';
+	(function() {
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<noscript>Please enable JavaScript to view comments.</noscript>
+
+</div>
+
+
+<!-- Post navigation -->
+
+
+    </div>
+    
+<script src="/assets/js/katex_init.js"></script>
+
+
+
+<footer class="site-footer">
+	<p class="text">Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
+</p>
+</footer>
+
+
+  </body>
+</html>

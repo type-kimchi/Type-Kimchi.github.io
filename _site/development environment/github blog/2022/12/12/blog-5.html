@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+	<meta charset="utf-8">
+	<title>지킬(Jekyll) 블로그에 구글 웹폰트 적용하기 | Sangwon's Blog</title>
+	<meta name="description"
+		content="간단하게 웹폰트 수정하는 법을 정리하고자 포스팅을 하였다.구글 에서 무료로 웹폰트를 제공하는데 이를 github 블로그에서 적용할 수 있다. 적용가능한 폰트 리스트는 링크된 사이트를 참조하면 좋을 것 같다. 나는 블로그의 폰트를 나눔 고딕으로 변경하였다. 변경 기준은 현재 블로그에...">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+
+	<!-- Canonical -->
+	<link rel="canonical" href="/development%20environment/github%20blog/2022/12/12/blog-5.html">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="Sangwon's Blog"
+		href="/feed.xml" />
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+	<!-- Google Fonts -->
+	
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet"
+		type="text/css">
+	
+
+	<!-- KaTeX -->
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css"
+		integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+
+	<script src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js"
+		integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ"
+		crossorigin="anonymous"></script>
+	
+
+	<!-- Google Analytics -->
+	
+	<script>
+		(function (i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date(); a = s.createElement(o),
+			m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-168092390-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	
+</head>
+  <body>
+    <header class="site-header">
+	<div class="branding">
+		
+		<a href="/">
+			<img class="avatar" src="/assets/img/avatar.png" alt=""/>
+		</a>
+		
+		<h1 class="site-title">
+			<a href="/">Sangwon's Blog</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+		<ul>
+			
+			
+			
+			
+			
+			<li>
+				<a class="page-link" href="/about/">
+					About
+				</a>
+			</li>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<!-- Social icons from Font Awesome, if enabled  -->
+			
+
+
+<li>
+	<a href="mailto:swgood4@gmail.com" title="Email">
+		<i class="fas fa-fw fa-envelope"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://github.com/type-kimchi" title="Follow on GitHub">
+		<i class="fab fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+<li>
+	<a href="https://www.linkedin.com/in/sangwon-choi-542759176/" title="Follow on LinkedIn">
+		<i class="fab fa-fw fa-linkedin"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Search bar -->
+            
+		</ul>
+	</nav>
+
+</header>
+
+    <div class="content">
+      <article >
+  <header style="background-image: url('/')">
+    <h1 class="title">지킬(Jekyll) 블로그에 구글 웹폰트 적용하기</h1>
+    
+    <p class="meta">
+      December 12, 2022
+      
+    </p>
+  </header>
+  <section class="post-content"><p><br /><br /></p>
+<p>간단하게 웹폰트 수정하는 법을 정리하고자 포스팅을 하였다.</p>
+<p><br /><br /></p>
+
+<p><br /><point>구글</point> 에서 무료로 웹폰트를 제공하는데 이를 github 블로그에서 적용할 수 있다. 적용가능한 폰트 리스트는 <a href="http://makebct.net/%EA%B5%AC%EA%B8%80%EC%9B%B9%ED%8F%B0%ED%8A%B8-%EB%B6%88%EB%9F%AC%EC%98%A4%EA%B8%B0/?cat=148/"><point>링크된 사이트</point></a>를 참조하면 좋을 것 같다. 나는 블로그의 폰트를 <point>나눔 고딕</point>으로 변경하였다. 변경 기준은 현재 블로그에 사용하고 있는 Type Theme을 기준으로 작성하였다.<br /><br /></p>
+
+<p>구글 font 사이트에서 나눔고딕 웹폰트 설정하는 법을 찾아보았다. 다음과 같이 셋팅해주면 된다고 한다.<br /></p>
+<center><img src="https://user-images.githubusercontent.com/20412850/40586003-1d7d4524-61f6-11e8-95fd-125b0db5e167.png" width="60%" /></center>
+<p><br /><br /></p>
+
+<blockquote>
+  <subtitle>1. _config.yml 파일 변경
+</subtitle>
+</blockquote>
+
+<p><br /><point>_config.yml</point> 파일에서 google_fonts의 값을 아래와 같이 변경 하였다.<br /></p>
+<center><img src="https://user-images.githubusercontent.com/20412850/40586016-30066766-61f6-11e8-8342-30ec0c94d5f1.png" width="50%" /></center>
+<p><br /><br /></p>
+
+<blockquote>
+  <subtitle>2. font-family 이름 변경
+</subtitle>
+</blockquote>
+
+<p><br /><point>_sass -&gt; base -&gt; _variables.scss</point> 파일에서 font-family를 다음과 같이 변경한다. font-family-main은 <strong>본문의 font</strong> 설정이고, font-family-headings는 <strong>타이틀의 font</strong> 설정이다.<br /></p>
+<center><img src="https://user-images.githubusercontent.com/20412850/40586041-86eaacfe-61f6-11e8-9698-68efe5e7fb50.png" width="50%" /></center>
+<p><br /></p>
+
+<p>이렇게 두가지만 적용하고 각 파일을 저장해서 다시 github에 push하면 적용 완료이다!<br /><br /><br /></p>
+
+<blockquote>
+  <p><strong>reference</strong></p>
+</blockquote>
+
+<ul>
+  <li>http://makebct.net/%EA%B5%AC%EA%B8%80%EC%9B%B9%ED%8F%B0%ED%8A%B8-%EB%B6%88%EB%9F%AC%EC%98%A4%EA%B8%B0/?cat=148/</li>
+  <li>https://fonts.google.com/specimen/Nanum+Gothic?selection.family=Nanum+Gothic:400,700</li>
+</ul>
+
+<p><br /><br /><br /><br /><br /></p>
+</section>
+  
+<footer>
+  <div class="tags">
+    
+    <a class="tag" href="/tags#Github+Blog">#Github Blog</a>
+    
+  </div>
+</footer>
+
+
+</article>
+
+<!-- Disqus -->
+
+<div class="comments">
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+	var disqus_shortname = 'disqus_i8TVV3ScXa';
+	(function() {
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<noscript>Please enable JavaScript to view comments.</noscript>
+
+</div>
+
+
+<!-- Post navigation -->
+
+
+    </div>
+    
+<script src="/assets/js/katex_init.js"></script>
+
+
+
+<footer class="site-footer">
+	<p class="text">Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
+</p>
+</footer>
+
+
+  </body>
+</html>

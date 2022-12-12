@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+	<meta charset="utf-8">
+	<title> Sangwon's Blog</title>
+	<meta name="description"
+		content="A website with blog posts and pages">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+
+	<!-- Canonical -->
+	<link rel="canonical" href="/blog/page7/">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="Sangwon's Blog"
+		href="/feed.xml" />
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+	<!-- Google Fonts -->
+	
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet"
+		type="text/css">
+	
+
+	<!-- KaTeX -->
+	
+
+	<!-- Google Analytics -->
+	
+	<script>
+		(function (i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date(); a = s.createElement(o),
+			m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-168092390-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	
+</head>
+  <body>
+    <header class="site-header">
+	<div class="branding">
+		
+		<a href="/">
+			<img class="avatar" src="/assets/img/avatar.png" alt=""/>
+		</a>
+		
+		<h1 class="site-title">
+			<a href="/">Sangwon's Blog</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+		<ul>
+			
+			
+			
+			
+			
+			<li>
+				<a class="page-link" href="/about/">
+					About
+				</a>
+			</li>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<!-- Social icons from Font Awesome, if enabled  -->
+			
+
+
+<li>
+	<a href="mailto:swgood4@gmail.com" title="Email">
+		<i class="fas fa-fw fa-envelope"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://github.com/type-kimchi" title="Follow on GitHub">
+		<i class="fab fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+<li>
+	<a href="https://www.linkedin.com/in/sangwon-choi-542759176/" title="Follow on LinkedIn">
+		<i class="fab fa-fw fa-linkedin"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Search bar -->
+            
+		</ul>
+	</nav>
+
+</header>
+
+    <div class="content">
+      <div class="home">
+  
+  <div class="call-out"
+  style="background-image: url('/assets/img/상원.jpeg')">
+    <p>상원이 달린다</p>
+<p>Cloud, kubernetes, Monitoring&Logging, Network, Linux</p>
+
+  </div>
+  
+
+  <div class="posts">
+    
+    <div class="post-teaser">
+      <header>
+        <h1>
+          <a class="post-link" href="/development%20environment/github%20blog/2022/12/12/blog-3.html">
+            마크다운(Markdown) 문법 정리
+          </a>
+        </h1>
+        <p class="meta">
+          December 12, 2022
+        </p>
+      </header>
+      <div class="excerpt">
+        <p><br /><br /></p>
+
+<p>이번 포스팅은 github 블로그 내용을 원활하게 작성하기 위해서 마크다운(markdown) 문법을 정리해 두려고 작성하였다.</p>
+<p><br /><br /></p>
+
+<blockquote>
+  <subtitle>1. 헤더(Header)</subtitle>
+</blockquote>
+
+<p><br />
+헤더 크기는 1~6까지 지원한다.<br /></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># This is H1        
+## This is H2
+### This is H3
+#### This is H4
+##### This is H5
+###### This is H6
+</code></pre></div></div>
+
+<h1 id="this-is-h1">This is H1</h1>
+<h2 id="this-is-h2">This is H2</h2>
+<h3 id="this-is-h3">This is H3</h3>
+<h4 id="this-is-h4">This is H4</h4>
+<h5 id="this-is-h5">This is H5</h5>
+<h6 id="this-is-h6">This is H6</h6>
+
+<p><br /><br /></p>
+
+<blockquote>
+  <subtitle>2. 인용구</subtitle>
+</blockquote>
+
+<p><br />
+인용구는 <code class="language-plaintext highlighter-rouge">&gt;</code>를 이용한다. 인용구 안에서 다른 마크업 요소를 섞어서 사용할 수 있다.<br /></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; 안녕
+&gt; &gt; 안녕
+&gt; &gt; * 안녕
+&gt; &gt; &gt; * 안녕
+</code></pre></div></div>
+<blockquote>
+  <p>안녕</p>
+  <blockquote>
+    <p>안녕</p>
+    <ul>
+      <li>안녕
+        <blockquote>
+          <ul>
+            <li>안녕</li>
+          </ul>
+        </blockquote>
+      </li>
+    </ul>
+  </blockquote>
+</blockquote>
+
+<p><br /><br /></p>
+
+<blockquote>
+  <subtitle>3. 목록</subtitle>
+</blockquote>
+
+<p><br /></p>
+<ul>
+  <li>순서가 있는 목록<br /></li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  1. 일번
+  2. 이번
+  3. 삼번
+</code></pre></div></div>
+<ol>
+  <li>일번</li>
+  <li>이번</li>
+  <li>삼번</li>
+</ol>
+
+<ul>
+  <li>순서가 없는 목록<br /></li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* 일번
+  * 이번
+    * 삼번
++ 일번
+  + 이번
+    + 삼번
+- 일번
+  - 이번
+    - 삼번
+</code></pre></div></div>
+<ul>
+  <li>일번
+    <ul>
+      <li>이번
+        <ul>
+          <li>삼번</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>일번
+    <ul>
+      <li>이번
+        <ul>
+          <li>삼번</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>일번
+    <ul>
+      <li>이번
+        <ul>
+          <li>삼번</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /><br /></p>
+
+<blockquote>
+  <subtitle>4. 코드</subtitle>
+</blockquote>
+
+<p><br />
+&lt; pre &gt; &lt; code &gt; 에 감싸서 사용한다.<br /></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;code&gt;Github&lt;/code&gt;
+</code></pre></div></div>
+<p><code>Github</code>
+<br /><br /></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  &lt;pre&gt;&lt;code&gt;
+  for i in range(1,2):
+    print(i)
+  &lt;/code&gt;&lt;/pre&gt;
+</code></pre></div></div>
+
+<pre><code>for i in range(1,2):
+  print(i)
+</code></pre>
+
+<p><br /><br />
+ps. 코드 하이라이터를 사용하는 경우(내 지킬 블로그 테마) js 대신에 원하는 언어를 넣을 수 있다. <a href="http://rouge.jneen.net/">Rouge</a> 하이라이터가 적용 되었다. <br /></p>
+
+<p><img src="https://user-images.githubusercontent.com/20412850/34469050-b6bb5f2e-ef59-11e7-8057-037fcbee07cf.png" width="30%" /></p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">):</span>
+  <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span></code></pre></figure>
+
+<p><br /><br /></p>
+
+<blockquote>
+  <subtitle> 5. 수평선 </subtitle>
+</blockquote>
+
+<p><br /></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>------
+************
+</code></pre></div></div>
+
+<hr />
+<hr />
+
+<p><br /><br /></p>
+
+<blockquote>
+  <subtitle> 6. 링크 </subtitle>
+</blockquote>
+
+<p><br /></p>
+<ul>
+  <li>인라인 링크</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> [Google](http://google.com)
+</code></pre></div></div>
+<p><a href="http://google.com">Google</a></p>
+
+<p><br /></p>
+<ul>
+  <li>자동 연결 링크</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;http://google.com&gt;
+</code></pre></div></div>
+<p><a href="http://google.com">http://google.com</a></p>
+
+<p><br /><br /></p>
+
+<blockquote>
+  <subtitle>8. 강조</subtitle>
+</blockquote>
+
+<p><br />
+진하게, 기울기, 취소선이 있다. 밑줄은 지원하지 않는다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>*single asterisks*
+_single underscores_
+**double asterisks**
+__double underscores__
+~~cancelline~~
+</code></pre></div></div>
+
+<p><em>single asterisks</em><br />
+<em>single underscores</em><br />
+<strong>double asterisks</strong><br />
+<strong>double underscores</strong><br />
+<del>cancelline</del><br /></p>
+
+<p><br /><br /></p>
+
+<blockquote>
+  <subtitle>9. 이미지</subtitle>
+</blockquote>
+
+<p><br /></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![이미지 이름](이미지 url)로 이미지를 넣을 수 있다.
+![Image name](https://user-images.githubusercontent.com/20412850/34468412-ba059536-ef4b-11e7-90d4-3313e9fed8f9.png)
+</code></pre></div></div>
+<p><img src="https://user-images.githubusercontent.com/20412850/34468412-ba059536-ef4b-11e7-90d4-3313e9fed8f9.png" alt="Image name" /></p>
+
+<p><br /><br />
+  ps. 사이즈 조정</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;img src="이미지 url" width="원하는 크기"&gt;
+&lt;img src="https://user-images.githubusercontent.com/20412850/34468412-ba059536-ef4b-11e7-90d4-3313e9fed8f9.png" width="60%"&gt;
+</code></pre></div></div>
+<p><img src="https://user-images.githubusercontent.com/20412850/34468412-ba059536-ef4b-11e7-90d4-3313e9fed8f9.png" width="60%" /></p>
+
+<p><br /><br /></p>
+
+<blockquote>
+  <subtitle>10. 표 그리기</subtitle>
+</blockquote>
+
+<p><br />
+표는 마크다운 표를 generate 해주는 사이트가 있다. 원하는 양식에 맞춰서 만들어서 갖다가 쓰면 편하다.</p>
+
+<ul>
+  <li>표 generate 사이트 : https://www.tablesgenerator.com/markdown_tables<br /></li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+</code></pre></div></div>
+<p><br /></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>First Header</th>
+      <th>Second Header</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Content Cell</td>
+      <td>Content Cell</td>
+    </tr>
+    <tr>
+      <td>Content Cell</td>
+      <td>Content Cell</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>내용 정렬은 아래와 같이 한다.<br /></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>First Header  | Second Header | Third Header
+:------------ | :-----------: | -----------:
+Left          | Center        | Right
+</code></pre></div></div>
+<p><br /></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">First Header</th>
+      <th style="text-align: center">Second Header</th>
+      <th style="text-align: right">Third Header</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Left</td>
+      <td style="text-align: center">Center</td>
+      <td style="text-align: right">Right</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /><br /></p>
+
+<blockquote>
+  <subtitle>11. 수식(테마에서 지원)</subtitle>
+</blockquote>
+
+<p><br /></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$$ f(x) = \int \frac{2x^2+4x+6}{x-2} $$
+</code></pre></div></div>
+<p>\(f(x) = \int \frac{2x^2+4x+6}{x-2}\)</p>
+
+<p><br /><br /><br /><br /><br /></p>
+
+        <a class="button" href="/development%20environment/github%20blog/2022/12/12/blog-3.html">
+          Continue reading
+        </a>
+      </div>
+    </div>
+    
+    <div class="post-teaser">
+      <header>
+        <h1>
+          <a class="post-link" href="/development%20environment/github%20blog/2022/12/12/blog-2.html">
+            지킬(Jekyll) 깃허브(Github) 블로그에 포스팅하기
+          </a>
+        </h1>
+        <p class="meta">
+          December 12, 2022
+        </p>
+      </header>
+      <div class="excerpt">
+        <p><br /><br /></p>
+
+<p>이번에 블로그 내용은 <point>마크다운(markdown) 문서</point>를 작성하기 위하여 사용하는 에디터, 깃허브 블로그에 포스팅 적용방법 및 페이지 만드는 법을 정리하기 위하여 작성하였다.</p>
+<p><br /><br /></p>
+
+<blockquote>
+  <subtitle> 1. 마크다운 에디터 </subtitle>
+</blockquote>
+
+<p><br />
+마크다운(Markdown) 형식의 문서를 작성하기 위해서는 마크다운 에디터를 사용하는 것이 편하다.
+나는 <strong><a href="https://atom.io">아톰(Atom)</a></strong> 에디터로 마크다운 문서를 작성한다. <code>아톰 에디터</code>는 <strong>마크다운 미리보기(Markdown preview)</strong> 를 제공하여 포스팅이 어떻게 작성되는지 확인하면서 작성 할 수 있다. 마크다운 편집기는 Atom이 아니더라도 <point>미리보기가 제공되는 편집기</point>를 사용하는 것을 추천한다.<br /><br /></p>
+
+<center><img src="https://user-images.githubusercontent.com/20412850/34468412-ba059536-ef4b-11e7-90d4-3313e9fed8f9.png" width="60%" /><br />[ Atom편집기 미리보기 예시 ]</center>
+<p><br /><br /></p>
+
+<blockquote>
+  <subtitle> 2. 마크다운 파일 생성 </subtitle>
+</blockquote>
+
+<p><br />
+깃허브 블로그 페이지는 <point>마크다운(Markdown) 문서(.md)</point>로 작성 한다.<br />
+블로그 디렉터리를 확인하면 <point>_posts</point> 라는 폴더가 있는데 이곳이 블로그 포스팅으로 작성한 파일을 넣어두는 부분이다. <strong>제목은 왠만하면 영어 또는 숫자로 적는 것이 좋다. 한글로 작성하게 되면 가끔 인코딩 오류가 발생하여 페이지 로드 오류가 발생했다.</strong><br /></p>
+
+<center><img src="https://user-images.githubusercontent.com/20412850/34468553-d5fbf2d2-ef4e-11e7-8733-b5adde5b68d1.png" width="60%" /></center>
+<p><br /><br /></p>
+
+<p>블로그 테마별로 날짜를 적는 형식이 조금씩 다른 것 같다. 어떤 테마에는 위의 yml 형식 부분에 적어 두는 곳도 있고 나처럼 문서 제목에 날짜를 달면 자동으로 포스팅한 날짜가 블로그에 적용이 되는 테마도 있는 것 같다. 파일 제목은 포스팅 콘텐츠의 url에 사용이 된다. <br /><br /></p>
+
+<center><img src="https://user-images.githubusercontent.com/20412850/34467427-cd2e76f8-ef34-11e7-8ee4-b99186fede6c.png" width="60%" /></center>
+<p><br /><br /></p>
+
+<p>먼저 블로그 포스팅 내용을 작성하기 전에 상단의 위의 그림처럼 형식을 먼저 작성한다. <point>layout: post</point> 는 포스팅 내용을 작성한다는 뜻이다. <point>layout: page</point> 이면 새로운 페이지를 생성할 수 있다. <point>title</point> 은 포스팅 하는 컨텐츠의 이름, <point>comments</point> 는 댓글을 달수 있도록 허용할 것인가 여부, <point>tag</point> 는 포스팅에 달 태그를 작성하는 곳이다. 테마의 기능마다 작성할 수 있는 것이 제한되어 있으므로 테마 기능에 따라서 작성하면 된다.<br /><br /></p>
+
+<center><img src="https://user-images.githubusercontent.com/20412850/34467442-49e55c34-ef35-11e7-8e87-8505ef39b287.png" width="60%" /></center>
+<p><br /><br /></p>
+
+<p>위의 사진은 <point>about.md</point>라는 마크다운 형식의 파일을 작성하여 <point>page를 생성</point> 한 모습이다. 페이지를 생성하고 싶으면 루트 디렉토리에 넣어주면 생성이 된다.<strong>(devYurim.github.io/about.md)</strong>
+<br /><br /></p>
+
+<blockquote>
+  <subtitle>3. 깃허브(Github) 블로그에 업로드</subtitle>
+</blockquote>
+
+<p><br />
+항상 깃허브에 변경사항을 적용할 때는 <point>저장소에 커밋 및 푸쉬</point>를 해주면 된다.<br /></p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell">/<span class="k">*</span>로컬 저장소로 경로 이동 후 아래의 명령어 실행<span class="k">*</span>/
+<span class="nv">$ </span>git add <span class="nb">.</span>
+<span class="nv">$ </span>git commit <span class="nt">-m</span> <span class="s2">"커밋내용"</span>
+<span class="nv">$ </span>git push origin master</code></pre></figure>
+
+<p><br />
+<br />
+<br />
+<br />
+<br /></p>
+
+        <a class="button" href="/development%20environment/github%20blog/2022/12/12/blog-2.html">
+          Continue reading
+        </a>
+      </div>
+    </div>
+    
+    <div class="post-teaser">
+      <header>
+        <h1>
+          <a class="post-link" href="/development%20environment/github%20blog/2022/12/12/blog-1.html">
+            지킬(Jekyll)을 이용하여 깃허브(Github) 블로그 개설하기
+          </a>
+        </h1>
+        <p class="meta">
+          December 12, 2022
+        </p>
+      </header>
+      <div class="excerpt">
+        <p><br /><br /></p>
+
+
+        <a class="button" href="/development%20environment/github%20blog/2022/12/12/blog-1.html">
+          Continue reading
+        </a>
+      </div>
+    </div>
+    
+    <div class="post-teaser">
+      <header>
+        <h1>
+          <a class="post-link" href="/development%20environment/docker/2022/12/12/docker-2.html">
+            Docker 컨테이너 연결하기(Mariadb - Django/Python) - Ubuntu 16.04 LTS (Server)
+          </a>
+        </h1>
+        <p class="meta">
+          December 12, 2022
+        </p>
+      </header>
+      <div class="excerpt">
+        <p><br /><br /></p>
+<p>Docker를 Runtime으로 사용하고 있지는 않지만 이미지 저장과 수정을 위해서 Docker의 사용은 필수적이다.<br />
+만드려는 컨테이너 구조는 아래의 그림과 같다.</p>
+<p><br /><br /></p>
+
+<center><img src="https://user-images.githubusercontent.com/20412850/43888367-7c335e1a-9bfc-11e8-9f64-9222d2dac549.png" width="60%" /></center>
+<p><br /><br />
+데이터 베이스 컨테이너와 웹서버 컨테이너가 연결되어 있는 구조이다. docker-compose는 사용하지 않고 웹서버 컨테이너 생성시 link 기능으로 연결해주었다.<br /></p>
+
+<blockquote>
+  <subtitle>1. Mariadb 도커 컨테이너 만들기</subtitle>
+</blockquote>
+
+<p>데이터베이스 컨테이너를 생성 시 mariadb 이미지를 사용하였다.일단 아래의 명령어를 통해 docker hub에서 mariadb 이미지를 다운로드 받는다. 아래의 명령어는 태그명을 latest를 가지는 mariadb 이미지를 다운로드 받는 명령어이다. <br /></p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nv">$ </span>docker pull mariadb:latest</code></pre></figure>
+
+<p><br /><br /></p>
+
+<p>다운로드 받은 이미지를 이용하여 데이터베이스 컨테이너를 생성(docker run)한다. 컨테이너가 삭제될 때 데이터가 날아가지 않도록 꼭 호스트의 데이터 볼륨과 연동해주어야 한다. 컨테이너를 생성하는 명령어는 다음과 같다.<br /></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">옵션</th>
+      <th style="text-align: center">기능</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">–name</td>
+      <td style="text-align: center">컨테이너 이름</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">-v</td>
+      <td style="text-align: center">데이터 볼륨 맵핑(경로)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">-p</td>
+      <td style="text-align: center">포트 맵핑(호스트포트:서비스포트)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">-e MYSQL_ROOT_PASSWORD</td>
+      <td style="text-align: center">MYSQL ROOT 패스워드 설정</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">-d</td>
+      <td style="text-align: center">사용하려는 이미지(이미지이름:태그명)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nv">$ </span>docker run <span class="nt">--name</span> mariadb <span class="se">\
+</span>
+<span class="nt">-v</span> /my/own/datadir:/home/ailab/DB <span class="se">\
+</span>
+<span class="nt">-e</span> <span class="nv">MYSQL_ROOT_PASSWORD</span><span class="o">=</span><span class="s1">'0000'</span> <span class="se">\
+</span>
+<span class="nt">-d</span> mariadb:latest</code></pre></figure>
+
+<p><br /><br /></p>
+
+<p>mariadb 컨테이너 내부로 접속하여 데이터베이스가 잘 구동 되는지 확인한다. 컨테이너 내부로 접속하여 mysql을 실행하는 명령어는 다음과 같다.<br /></p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nv">$ </span>docker <span class="nb">exec</span> <span class="nt">-it</span> mariadb /bin/bash   // 도커 컨테이너 내부 접속
+<span class="nv">$ </span>mysql <span class="nt">-p</span>패스워드입력                // mysql 접속<span class="o">(</span>유저 생성 안했을 시 root로 접속<span class="o">)</span></code></pre></figure>
+
+<p><br /><br /></p>
+
+<p>추가적으로 mysql을 커맨드 라인으로 조작하는 명령어는 다음과 같다.<br /></p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nv">$ </span>show database<span class="p">;</span>                    // 데이터베이스 보기
+<span class="nv">$ </span>use database이름<span class="p">;</span>                 // 데이터베이스 선택
+<span class="nv">$ </span>show tabels<span class="p">;</span>                      // 데이터베이스 내부 테이블 보기</code></pre></figure>
+
+<p><br /><br /></p>
+
+<blockquote>
+  <subtitle>2. Python 컨테이너 내부에서 django 설치 </subtitle>
+</blockquote>
+
+<p>Django 이미지를 따로 사용하지 않고 기존에 사용하고 있던 Python/Tensorflow 개발용 컨테이너에 django를 설치하여 개발용 웹서버로 만들었다.
+기존에 사용하던 포트 이외 Django용 포트만 연결하여 주면 된다. 이 컨테이너에 데이터베이스 컨테이너를 연결해야하므로 link 명령어를 이용하여 데이터베이스를 연동하였다.
+먼저 텐서플로우 이미지를 이용하여 컨테이너를 생성하는 명령어는 아래와 같다.<br /><br /></p>
+
+<ul>
+  <li>텐서플로우 이미지 사용(주피터 노트북, 텐서플로우, 파이썬) / 8888 : 주피터 노트북 포트 , 8000 : 장고 포트, 3306 : 마리아 데이터베이스 포트) <br /></li>
+</ul>
+
+<p><br /></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">옵션</th>
+      <th style="text-align: center">기능</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">NV_GPU</td>
+      <td style="text-align: center">GPU 번호 지정</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">–name</td>
+      <td style="text-align: center">컨테이너 이름</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">–link</td>
+      <td style="text-align: center">연결할 컨테이너 이름(여기서는 mariadb 컨테이너)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">-v</td>
+      <td style="text-align: center">데이터 볼륨 맵핑(경로)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">-p</td>
+      <td style="text-align: center">포트 맵핑(호스트포트:서비스포트)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">-e PASSWORD</td>
+      <td style="text-align: center">host url로 접속시 패스워드 설정</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">-d</td>
+      <td style="text-align: center">사용하려는 이미지(이미지이름:태그명)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /><br /></p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nv">$ NV_GPU</span><span class="o">=</span>1 nvidia-docker run <span class="nt">-it</span> <span class="se">\
+</span>
+<span class="nt">--name</span> crawler-journal <span class="se">\
+</span>
+<span class="nt">--link</span> mariadb <span class="se">\
+</span>
+<span class="nt">-v</span> /home/ailab/docker/crawler-journal:/notebooks <span class="se">\
+</span>
+<span class="nt">-p</span> 8894:8888 <span class="nt">-p</span> 81:8000 <span class="nt">-p</span> 6012:3306  <span class="se">\
+</span>
+<span class="nt">-e</span> <span class="nv">PASSWORD</span><span class="o">=</span><span class="s2">""</span> <span class="se">\
+</span>
+<span class="nt">-d</span> crawler-journal:08.08</code></pre></figure>
+
+<p><br /><br /></p>
+
+<p>방금 생성한 도커 컨테이너 내부로 접속하여 장고를 설치하는 명령어는 다음과 같다.<br /></p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nv">$ </span>docker <span class="nb">exec</span> <span class="nt">-it</span> crawler-journal /bin/bash   // 도커 컨테이너 내부 접속
+<span class="nv">$ </span>pip <span class="nb">install </span>django                          // 장고 설치</code></pre></figure>
+
+<p><br /><br /></p>
+
+<blockquote>
+  <subtitle>3. mariadb 컨테이너 연결 확인 </subtitle>
+</blockquote>
+
+<p>현재의 컨테이너(웹 서버용)와 데이터베이스 컨테이너가 잘 연결(link) 되었는지 확인하기 위해서 몇가지 추가 작업이 필요하다. 먼저 웹 서버 컨테이너에서 mysql 서버에 접속하기 위해서는 apt-get으로 mysqlclient 패키지를 설치해준다.<br /></p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nv">$ </span>apt-get update
+<span class="nv">$ </span>apt-get <span class="nb">install </span>mysqlclient</code></pre></figure>
+
+<p><br /><br /></p>
+
+<p>그다음 아래의 명령어로 mysql 서버에 접속한다. 이때 host는 mariadb(데이터베이스 컨테이너 이름)이고 계정은 따로 만들지 않았으니 root로 접속하고 패스워드(0000)를 입력해준다.<br /></p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nv">$ </span>mysql <span class="nt">-h</span> mariadb <span class="nt">-u</span> root <span class="nt">-p0000</span></code></pre></figure>
+
+<p>데이터 베이스에 접속이 되면 컨테이너간 통신이 되는 것이다. 원래 호스트 주소 입력란에 127.0.0.1 같은 ip주소를 입력해야 하지만 docker 컨테이너의 ip는 도커가 할당해주는 가상 ip주소 이기 때문에 ip 주소가 변하게 된다.(고정 ip 주소가 아니다.) 그렇기 때문에 link 기능을 이용하여 도커 컨테이너 내부에서 알아서 호스트 주소를 받을 수 있게 하는것이 link 기능이라고 한다. 따라서 mysql -h 입력란에 컨테이너 이름을 입력하여도 연결이 가능한 것이다. <br /></p>
+
+<p>이렇게 해서 mariadb 컨테이너와 django/python 컨테이너가 연결이 되었다!<br /><br /><br /></p>
+
+<blockquote>
+  <subtitle>reference</subtitle>
+</blockquote>
+
+<ul>
+  <li>https://www.fun25.co.kr/blog/python-install-mysqlclient/</li>
+  <li>https://wayhome25.github.io/mysql/2017/03/16/mysql-02-mysql-client/</li>
+  <li>http://pyrasis.com/book/DockerForTheReallyImpatient/Chapter06/02</li>
+</ul>
+
+<p><br /><br /><br /><br /><br /></p>
+
+        <a class="button" href="/development%20environment/docker/2022/12/12/docker-2.html">
+          Continue reading
+        </a>
+      </div>
+    </div>
+    
+    <div class="post-teaser">
+      <header>
+        <h1>
+          <a class="post-link" href="/development%20environment/docker/2022/12/12/docker-1.html">
+            Docker를 이용하여 GitLab 설치하기 - Ubuntu 16.04 LTS (Server)
+          </a>
+        </h1>
+        <p class="meta">
+          December 12, 2022
+        </p>
+      </header>
+      <div class="excerpt">
+        <p><br /><br /></p>
+<p>코드 버전 관리를 위해 <point>GitLab</point>을 설치했다! 서버 환경은 centOS 7.2에 Docker를 사용하고 있다.<br />
+GitLab 도커 이미지는 CE(Community Edition)과 EE(Enterprise Edition) 버전이 있는데 나는 <point>CE 버전</point>으로 설치하였다.</p>
+<p><br /><br /></p>
+
+<blockquote>
+  <subtitle>1. GitLab Docker 이미지 다운로드</subtitle>
+</blockquote>
+
+<p>다음의 Docker 명령어를 통해서 gitlab 이미지를 Docker Hub에서 다운로드 받을 수 있다.<br />
+latest의 태그명이 붙은 이미지를 다운로드 받았다.<br /></p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nv">$ </span>docker pull <span class="nb">install </span>gitlab/gitlab-ce:latest</code></pre></figure>
+
+<p><br /><br /><br /></p>
+
+<blockquote>
+  <subtitle>2. gitlab 설치</subtitle>
+</blockquote>
+
+<p>다음의 Docker 명령어로 <point>GitLab 컨테이너를 생성</point>한다.<br /></p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nv">$ </span><span class="nb">sudo </span>docker run <span class="nt">--detach</span> <span class="se">\
+</span>
+    <span class="nt">--hostname</span> gitlab.ailab.com <span class="se">\
+</span>
+    <span class="nt">--publish</span> 8897:80 <span class="nt">--publish</span> 6015:22 <span class="se">\
+</span>
+    <span class="nt">--name</span> gitlab <span class="se">\
+</span>
+    <span class="nt">--restart</span> always <span class="se">\
+</span>
+    <span class="nt">--volume</span> /srv/gitlab/config:/home/ailab/GitLab <span class="se">\
+</span>
+    <span class="nt">--volume</span> /srv/gitlab/logs:/home/ailab/GitLab/log <span class="se">\
+</span>
+    <span class="nt">--volume</span> /srv/gitlab/data:/home/ailab/GitLab/data <span class="se">\
+</span>
+    gitlab/gitlab-ce:latest</code></pre></figure>
+
+<p><br /><br />
+80번 포트는 http용 포트, 22번 포트는 ssh deamon용 포트이다. 도커 포트 맵핑은 <point>호스트포트:컨테이너포트</point>로 이루어지며
+나의 경우 publish 옵션을 보면 80번 컨테이너 포트는 호스트 포트 8897로, 22번 컨테이너 포트는 호스트 포트 6015 로 맵핑을 시켜두었다.<br />
+즉, 웹에서 접근시 <point>서버 주소:8897</point> 로 접속할 수 있고 SSH로 GitLab 접속시 <point>서버 주소와 ssh 6015 포트</point>로 접속할 수 있다.<br /></p>
+
+<center><img src="https://user-images.githubusercontent.com/20412850/41970003-37695cc8-7a44-11e8-8089-ee473171e63c.png" width="60%" /><br />데이터 저장 맵핑 설명은 다음을 참고하였다.</center>
+<p><br /><br /></p>
+
+<p>참고로, <point>노출 host 포트</point>는 다음과 같다고 문서에 적혀있다.<br /></p>
+<ul>
+  <li>80 (http)</li>
+  <li>443 (if you configure HTTPS)</li>
+  <li>8080 (used by Unicorn)</li>
+  <li>22 (used by the SSH deamon)
+<br /><br /><br /></li>
+</ul>
+
+<blockquote>
+  <subtitle>3. Gitlab Configuration 수정</subtitle>
+</blockquote>
+
+<point>외부에서 접속할 수 있도록 하기 위해서는 한가지 셋팅이 더 필요하다.</point>
+<p><br /><br />
+먼저 아래의 Docker 명령어로 gitlab 이름의 컨테이너로 접속한다.<br /></p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nv">$ </span>docker <span class="nb">exec</span> <span class="nt">-it</span> gitlab /bin/bash</code></pre></figure>
+
+<p><br /><br /></p>
+
+<p>다음 아래의 경로로 접속하여 nano 에디터로 <point>gitlab.rb</point> 파일을 수정한다.<br /></p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nv">$ </span><span class="nb">cd</span> /etc/gitlab
+<span class="nv">$ </span>nano gitlab.rb</code></pre></figure>
+
+<p><br /><br /></p>
+
+<p>파일에 들어가보면 화면 중간부분에 GitLab URL부분에 <point>extenal_url 옵션</point>의 주석을 해제하고 외부에서 접속 할 url을 입력해 준다.<br /></p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="c">## GitLab URL
+</span>
+<span class="c">##! URL on which GitLab will be reachable.
+</span>
+<span class="c">##! For more details on configuring external_url see:
+</span>
+<span class="c">##! https://docs.gitlab.com/omnibus/settings/configuration.html#configuring-the-external-url-for-gitlab
+</span>
+external_url <span class="s1">'http://gitlab.ailab.com:8897'</span></code></pre></figure>
+
+<p><br /><br /></p>
+
+<p>조금 내리다 보면 GitLab Shell setting for GitLab 부분에서 <point>gitlab_rails['gitlab_shell_ssh_port']</point> 부분의 주석을 풀고 포트 부분을 수정해준다.<br /></p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="c">### GitLab Shell settings for GitLab
+</span>
+gitlab_rails[<span class="s1">'gitlab_shell_ssh_port'</span><span class="o">]</span> <span class="o">=</span> 6015
+<span class="c"># gitlab_rails['gitlab_shell_git_timeout'] = 800</span></code></pre></figure>
+
+<p><br /><br /></p>
+
+<p>ctrl+o로 저장하고 enter를 누른후 ctrl+x로 나노 에디터를 빠져나온다.<br />
+서버 주소:포트번호(xxx.xxx.xxx.xxx:8897)로 사이트를 접속하면 정상적으로 접속이 되는 것을 확인할 수 있다.<br /></p>
+<center><img src="https://user-images.githubusercontent.com/20412850/41971445-6e0bd990-7a49-11e8-91c9-ca415231c5fb.png" width="80%" /></center>
+<p><br /><br /></p>
+
+<p>root 계정이 사용할 비밀번호를 입력하고 id는 root 비밀번호는 방금 설정한 비밀번호로 sign in 하면 로그인이 되는 것을 확인 할 수 있다.<br /></p>
+<center><img src="https://user-images.githubusercontent.com/20412850/41971750-78972b02-7a4a-11e8-99f5-4b9bd8af1acd.png" width="80%" /></center>
+<p><br /><br /></p>
+
+<p>또한 root 계정 이외에 <point>개인 계정</point>을 만들고 싶다면 register 부분에서 생성하면 사용할 수 있다<br /></p>
+<center><img src="https://user-images.githubusercontent.com/20412850/41972266-503a48d6-7a4c-11e8-8cc9-359bcee7372c.png" width="80%" /></center>
+<p><br /><br /></p>
+<center><img src="https://user-images.githubusercontent.com/20412850/41971844-c1fe2c50-7a4a-11e8-9721-1dc24bf195ea.png" width="80%" /></center>
+<p><br /><br /></p>
+
+<p>이렇게 나의 소스코드를 안전하게 관리할 수 있는 개인 계정 서버가 생성되었다!<br /><br /><br /><br /></p>
+
+<blockquote>
+  <subtitle>reference</subtitle>
+</blockquote>
+
+<ul>
+  <li>https://docs.gitlab.com/omnibus/docker/</li>
+</ul>
+
+<p><br /><br /><br /><br /><br /></p>
+
+        <a class="button" href="/development%20environment/docker/2022/12/12/docker-1.html">
+          Continue reading
+        </a>
+      </div>
+    </div>
+    
+  </div>
+
+  
+  <div class="pagination">
+    
+    <a href="/blog/page6" class="button" >
+      <i class="fa fa-chevron-left"></i>
+      Prev
+    </a>
+    
+    
+    <a href="/blog/page8" class="button" >
+      Next
+      <i class="fa fa-chevron-right"></i>
+    </a>
+    
+  </div>
+  
+</div>
+
+    </div>
+    
+
+
+<footer class="site-footer">
+	<p class="text">Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
+</p>
+</footer>
+
+
+  </body>
+</html>
