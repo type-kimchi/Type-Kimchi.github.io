@@ -5,7 +5,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://localhost:4000/</link>
     <description>A website with blog posts and pages</description>
-    <pubDate>Mon, 12 Dec 2022 23:33:19 +0900</pubDate>
+    <pubDate>Tue, 13 Dec 2022 00:13:16 +0900</pubDate>
     
       <item>
         <title>도커(Docker)를 이용하여 텐서플로우(Tensorflow) GPU 버전 설치하기 - Ubuntu 16.04(Titan XP)</title>
