@@ -15,7 +15,7 @@ theme_settings:
   header_text: >
      <p>상원이 달린다</p>
 
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+     <p>Cloud, kubernetes, Monitoring&Logging, Network, Linux</p>
   header_text_feature_image: assets/img/상원.jpeg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
@@ -29,11 +29,11 @@ theme_settings:
   facebook:
   flickr:
   gitlab:
-  github: "rohanchandra/type-theme"
+  github: "type-kimchi"
   gitter:
   google_plus:
   instagram:
-  linkedin:  # Full URL
+  linkedin: "https://www.linkedin.com/in/sangwon-choi-542759176/"  # Full URL
   pinterest:
   reddit:
   soundcloud:
@@ -45,8 +45,8 @@ theme_settings:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
+  google_analytics: "UA-168092390-1" # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname: "disqus_i8TVV3ScXa"
   katex: true # Enable if using math markup
   search: false # Enable the search feature
 
@@ -64,11 +64,15 @@ theme_settings:
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
-  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+  google_fonts: "Nanum+Gothic:400,700"
 
   # Post navigation
   post_navigation: false
 
+encoding: 'utf-8'
+# Configure the plugin here
+category_path: "category" # <- default value
+category_layout: "category.html" # <- default value
 # PAGINATION
 paginate: 5
 paginate_path: "blog/page:num"
@@ -79,7 +83,14 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-plugins: [jekyll-paginate]
+plugins:
+  - jekyll-paginate
+  - jekyll-category-pages
+gem:
+    - jekyll-sitemap
+    - jekyll-feed
+    - wdm
+theme: jekyll-theme-type
 exclude:
   - Gemfile
   - Gemfile.lock
