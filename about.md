@@ -9,11 +9,11 @@ feature-img: "assets/img/상원.jpeg"
 
 |기간|활동내역|역할|
 |---|---|---|
-|2012.03~2013.12|산업공학 학부생활|산업공학개론/미적분/기초공학|
-|2013.12~2015.09|23사단 정보병과 정보병|북한군사정보 관련 비문 작업 및 추적활동&훈룐|
-|2016.03~2018.07|산업공학 학부생활|컴퓨터공학/품질경영/선형대수|
-|2018.07~2020.05|LVMH High Jewerly IT Specialist|L1 Ticket handling&trouble shooting/Network Engineer with L2&Cisco/POS program|
-|2020.05~2021.05|Siemens IT Specialist|4Walls job with Server management/Maintenence&BI Project|
-|2021.06~Current|IBM System Management Engineer|IBM Power/Cloud/Monitoring/DevOps|
+|2012.03~2013.12|<point>산업공학 학부생활</point>|산업공학개론/미적분/기초공학|
+|2013.12~2015.09|<point>23사단 정보병과 정보병</point>|북한군사정보 관련 비문 작업 및 추적활동&훈룐|
+|2016.03~2018.07|<point>산업공학 학부생활</point>|컴퓨터공학/품질경영/선형대수|
+|2018.07~2020.05|<point>LVMH High Jewerly IT Specialist</point>|L1 Ticket handling&trouble shooting/Network Engineer with L2&Cisco/POS program|
+|2020.05~2021.05|<point>Siemens IT Specialist</point>|4Walls job with Server management/Maintenence&BI Project|
+|2021.06~Current|<point>IBM System Management Engineer</point>|IBM Power/Cloud/Monitoring/DevOps|
 
 
