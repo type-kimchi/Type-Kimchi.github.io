@@ -6,6 +6,8 @@ feature-img: "assets/img/상원.jpeg"
 ---
 
 안녕하세요, 저는 숭실대학교 산업정보시스템공학과를 18년도에 졸업하고 다양한 외국계 기업에서 IT Speciality를 쌓아가고 있습니다.<br>
+관심언어: <span style='background-color: #fff5b1'>Python, Ruby, Go</span> <br>
+관심분야: <span style='background-color: #dcffe4'>DevOps, Cloud, No&Low Code, 누구에게나 접근 가능한 IT</span>
 
 |기간|활동내역|역할|
 |---|---|---|
