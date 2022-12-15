@@ -7,7 +7,7 @@ tags: [Tensorflow, Docker]
 ---
 
 <br><br>
-나의 험난했던... 연구실 서버 셋팅기를 글로 남겨보려고 한다..! 연구실 서버의 사양은 <point>Ubuntu 16.04 / Titan XP</point> 이다. 여러명이서 같이 써야하기 때문에 <point>docker로 텐서플로우 GPU 버전</point>을 사용할 수 있는 환경을 구성하였다.<br><br>
+<point>Ubuntu 16.04 / Titan XP</point> 이다. 여러명이서 같이 써야하기 때문에 <point>docker로 텐서플로우 GPU 버전</point>을 사용할 수 있는 환경을 구성하였다.<br><br>
 
 
 > <subtitle> 1. Docker 설치 및 셋팅
